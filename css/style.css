@@ -1,0 +1,52 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.navbar-nav{
+  position: absolute;
+  right: 20%;
+  width: 300px;
+  padding: 10px;
+  font-size: 120%;
+  font-family: 'Domine', serif;
+}
+
+.nav-item{
+  padding-left: 50px;
+}
+.hola{
+  height:20%;
+}
+
+.intro{
+  font-family: 'Metamorphous', cursive;
+}
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+
+.top-nav-collapse {
+  background-color: rgb(68, 84, 88) !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #faf9f9 !important;
+  }
+}
+
